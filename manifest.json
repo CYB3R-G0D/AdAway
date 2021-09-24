@@ -1,0 +1,16 @@
+{
+  "name": "AdAway",
+  "version": "1.0",
+  "description": "Just another ad blocker",
+  "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+  "background": {
+	"scripts": ["blocked_domains.js", "background.js"]
+  },
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "icon.png"
+  },
+  "manifest_version": 2
+}
